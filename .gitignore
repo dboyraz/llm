@@ -13,6 +13,11 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
+# Downloaded ML models (fetched at runtime by download.py)
+models/
+*.onnx
+*.onnx_data
+
 # OS
 .DS_Store
 Thumbs.db
